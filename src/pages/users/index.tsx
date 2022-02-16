@@ -15,7 +15,7 @@ import {
 } from "@chakra-ui/react";
 import { RiAddLine, RiPencilLine } from "react-icons/ri";
 import Header from "../../components/Header";
-import { Sidebar } from "../../components/Sidebar";
+import { Sidebar } from "../../components/Siderbar/index";
 import { Paginations } from "../../components/Pagination";
 
 export default function UserList() {
