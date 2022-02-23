@@ -16,6 +16,7 @@ import {
   Spinner,
 } from "@chakra-ui/react";
 import { RiAddLine } from "react-icons/ri";
+import { useQuery } from "react-query";
 import Header from "../../components/Header";
 import { Sidebar } from "../../components/Siderbar/index";
 import { Paginations } from "../../components/Pagination";
@@ -102,7 +103,7 @@ export default function UserList() {
                   })}
                 </Tbody>
               </Table>
-              <Paginations />
+              <Paginations onPagechange={() => {}} totalCountOfRegisters={200} currentPage={5}/>
             </>
           )}
         </Box>
